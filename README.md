@@ -4,7 +4,7 @@ A lightweight PHP library implementing the **Specification Pattern** for Domain-
 
 [![Tests](https://github.com/fragoe/ddd-business-rules-specification/actions/workflows/tests.yml/badge.svg)](https://github.com/fragoe/ddd-business-rules-specification/actions/workflows/tests.yml)
 [![codecov](https://codecov.io/gh/fragoe/ddd-business-rules-specification/branch/main/graph/badge.svg)](https://codecov.io/gh/fragoe/ddd-business-rules-specification)
-[![PHP Version](https://img.shields.io/badge/php-%5E8.2-blue)](https://www.php.net/)
+[![PHP Version](https://img.shields.io/badge/php-%5E8.3-blue)](https://www.php.net/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 ## Features
@@ -20,7 +20,7 @@ A lightweight PHP library implementing the **Specification Pattern** for Domain-
 composer require fragoe/ddd-business-rules-specification
 ```
 
-**Requirements:** PHP ^8.2
+**Requirements:** PHP ^8.3
 
 ## Quick Start
 
