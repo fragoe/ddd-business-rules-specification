@@ -1,0 +1,29 @@
+{
+  "name": "fragoe/ddd-business-rules-specification",
+  "description": "Core library implementing the Specification Pattern for DDD business rules with composable boolean operations.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "fragoe",
+      "email": "fragoe@pm.me"
+    }
+  ],
+  "require": {
+    "php": "^8.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^12.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "fragoe\\DDDBusinessRules\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "fragoe\\DDDBusinessRules\\Tests\\": "tests/",
+      "fragoe\\DDDBusinessRules\\Examples\\": "examples/"
+    }
+  }
+}
