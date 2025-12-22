@@ -35,11 +35,11 @@ jobs:
         run: vendor/bin/phpunit
 
       - name: Run tests with coverage
-        if: matrix.php-version == '8.2'
+        if: matrix.php-version == '8.3'
         run: vendor/bin/phpunit --coverage-clover coverage.xml
 
       - name: Upload coverage to Codecov
-        if: matrix.php-version == '8.2'
+        if: matrix.php-version == '8.3'
         uses: codecov/codecov-action@v4
         with:
           files: ./coverage.xml
